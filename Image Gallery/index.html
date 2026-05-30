@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+<body class="bg-[#191919]">
+    <div class="flex items-center justify-center my-[10%] mx-auto">
+        <img src="images/back.png" alt="" id="backBtn" class="w-10 cursor-pointer m-10 ">    
+        <div class="gallery w-225 flex overflow-x-scroll scrollbar-none">
+            <div class="w-full grid grid-cols-[auto_auto_auto] gap-5 p-2.5 flex-none">
+                <span><img class="w-full grayscale transition-transform duration-500 hover:grayscale-0 hover:cursor-pointer hover:scale-[1.1]" src="images/image-1.png" alt=""></span>
+                <span><img class="w-full grayscale transition-transform duration-500 hover:grayscale-0 hover:cursor-pointer hover:scale-[1.1]" src="images/image-2.png" alt=""></span>
+                <span><img class="w-full grayscale transition-transform duration-500 hover:grayscale-0 hover:cursor-pointer hover:scale-[1.1]" src="images/image-3.png" alt=""></span>
+            </div>
+            <div class="w-full grid grid-cols-[auto_auto_auto] gap-5 p-2.5 flex-none">
+                <span><img class="w-full grayscale transition-transform duration-500 hover:grayscale-0 hover:cursor-pointer hover:scale-[1.1]" src="images/image-4.png" alt=""></span>
+                <span><img class="w-full grayscale transition-transform duration-500 hover:grayscale-0 hover:cursor-pointer hover:scale-[1.1]" src="images/image-5.png" alt=""></span>
+                <span><img class="w-full grayscale transition-transform duration-500 hover:grayscale-0 hover:cursor-pointer hover:scale-[1.1]" src="images/image-6.png" alt=""></span>
+            </div>
+        </div>
+        <img src="images/next.png" alt="" id="nextBtn" class="w-10 cursor-pointer m-10 ">
+    </div>
+    <script src="scrpit.js"></script>
+</body>
+</html>
+
