@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Converter</title>
+    <link rel="stylesheet" href="../output.css">
+    <style>
+        .set{
+            background-image: url('images/dropdown.png');
+        }
+    </style>
+</head>
+<body>
+    <div class="w-full min-h-screen bg-linear-to-r from-[#010748] to-[#490d61] flex items-center justify-center flex-col">
+        <h1 class="text-5xl font-medium mb-12.5 -mt-12.5 text-white">Text To Speech <span class="text-[#ff2963]">Converter</span></h1>
+        <textarea name="" id="" class="w-150 h-62.5 bg-[#403d84] text-white text-[15px] border-0 outline-0 p-5 rounded-[10px] resize-none mb-7.5 placeholder:text-[16px] placeholder:text-[#ddd]" placeholder="Wrtie anything here..."></textarea>
+        <div class="w-150 flex items-center gap-5 ">
+            <select name="" id="f" class="set flex-1 text-white bg-[#403d84] h-12.5 px-5 outline-0 border-0 rounded-[35px] appearance-none bg-no-repeat bg-size-[15px] bg-position-[calc(100%-20px)_20px] "></select>
+            <button class="flex items-center cursor-pointer bg-[#ff2963] text-white text-[16px] py-2.5 px-7.5 rounded-[35px] border-0 outline-0 "><img src="images/play.png" alt="" class="w-4 mr-2.5">Listen</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
